@@ -1,0 +1,75 @@
+
+<div class="twPc-div">
+
+	{{uiOutput("userBannerPic")}}
+
+	<div>
+		<a class="twPc-avatarLink">
+		{{uiOutput("userProfilePic")}}
+		</a>
+
+		<div class="twPc-divUser">
+			<div class="twPc-divName">
+				<a> {{textOutput("userName")}}</a>
+			</div>
+			<span>
+				<a><span>{{textOutput("userID")}}</span></a>
+			</span>
+		</div>
+
+		<div class="twPc-divStats">
+			<ul class="twPc-Arrange">
+				<li class="twPc-ArrangeSizeFit">
+					<a>
+						<span class="twPc-StatLabel twPc-block">Tweets</span>
+						<span class="twPc-StatValue">{{ textOutput("userNbTweets") }}</span>
+					</a>
+				</li>
+				<li class="twPc-ArrangeSizeFit">
+					<a>
+						<span class="twPc-StatLabel twPc-block">Following</span>
+						<span class="twPc-StatValue">{{ textOutput("userNumFollowing") }}</span>
+					</a>
+				</li>
+				<li class="twPc-ArrangeSizeFit">
+					<a>
+						<span class="twPc-StatLabel twPc-block">Followers</span>
+						<span class="twPc-StatValue">{{ textOutput("userNumFollowers") }}</span>
+					</a>
+				</li>
+				<li class="twPc-ArrangeSizeFit">
+					<a>
+						<span class="twPc-StatLabel twPc-block">Likes</span>
+						<span class="twPc-StatValue">{{ textOutput("userNumLikes") }}</span>
+					</a>
+				</li>
+				<li class="twPc-ArrangeSizeFit">
+					<a>
+						<span class="twPc-StatLabel twPc-block">Favorites</span>
+						<span class="twPc-StatValue">{{ textOutput("userNumFavorites") }}</span>
+					</a>
+				</li>
+				<li class="twPc-ArrangeSizeFit">
+					<a>
+						<span class="twPc-StatLabel twPc-block">Retweets</span>
+						<span class="twPc-StatValue">{{ textOutput("userNumRetweets") }}</span>
+					</a>
+				</li>
+				<li class="twPc-ArrangeSizeFit">
+					<a>
+						<span class="twPc-StatLabel twPc-block">Listed</span>
+						<span class="twPc-StatValue">{{ textOutput("userNumListed") }}</span>
+					</a>
+				</li>
+				<li class="twPc-ArrangeSizeFit">
+					<a>
+						<span class="twPc-StatLabel twPc-block">Account Created At</span>
+						<span class="twPc-StatValue">{{ textOutput("userCreatedAt") }}</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- code end -->
+
