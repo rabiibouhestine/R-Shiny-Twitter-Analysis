@@ -177,7 +177,7 @@ ui <- tagList(
   ),
   # Putting a link to source code on the right of the navbar
   tags$script(HTML("var header = $('.navbar > .container-fluid');
-                       header.append('<div style=\"float:right;margin-top:15px;margin-left:10px;\"><a target=\"_blank\" href=\"http://google.com\"><i style=\"color:#FFFFFF;\" class=\"fa fa-code\"> Source Code</i></a></div>');
+                       header.append('<div style=\"float:right;margin-top:15px;margin-left:10px;\"><a target=\"_blank\" href=\"https://github.com/rabiibouhestine/R-Shiny-Twitter-Analysis\"><i style=\"color:#FFFFFF;\" class=\"fa fa-code\"> Source Code</i></a></div>');
                        console.log(header)"))
   
 )
